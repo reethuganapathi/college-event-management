@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Event Management</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f0f4f8;
+        }
+
+        nav {
+            background-color: navy;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: navy;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Events</a>
+    </nav>
+
+    <h2>Upcoming Events</h2>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>SAMYAK FLASHMOB</h2>
+            <p>VENUE: BASKETBALL COURT</p>
+            <p>DATE: 14-OCT-2026</p>
+            <input type="text" id="name1" placeholder="Enter Your Name">
+            <button type="button">Register</button>
+        </div>
+
+        <div class="card">
+            <h2>SAMYAK ETHINIC DAY</h2>
+            <p>VENUE: R&D AUDITORIUM</p>
+            <p>DATE: 16-OCT-2026</p>
+            <input type="text" id="name2" placeholder="Enter Your Name">
+            <button type="button">Register</button>
+        </div>
+
+        <div class="card">
+            <h2>SAMYAK CARNIVAL</h2>
+            <p>VENUE: MAIN GATE</p>
+            <p>DATE: 19-OCT-2026</p>
+            <input type="text" id="name3" placeholder="Enter Your Name">
+            <button type="button">Register</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
